@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SV MART</title>
+
+<title>Shinreyhealth</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -11,65 +15,84 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    background:linear-gradient(135deg,#2e7d32,#4caf50);
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    font-family:'Inter',sans-serif;
+    background:#ffffff;
+    color:#111827;
 }
 
 .container{
-    background:white;
-    width:90%;
-    max-width:650px;
-    padding:50px;
-    border-radius:15px;
+    max-width:800px;
+    margin:auto;
+    padding:60px 24px 80px;
     text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
 }
 
-.logo{
-    font-size:60px;
+.small-title{
+    color:#3E7B6A;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:16px;
 }
 
 h1{
-    color:#2e7d32;
-    margin-top:15px;
-    margin-bottom:10px;
+    font-family:'DM Serif Display',serif;
+    font-size:52px;
+    margin-bottom:20px;
 }
 
-p{
-    color:#555;
+.description{
+    color:#4B5563;
     font-size:18px;
-    line-height:1.7;
-    margin-bottom:35px;
+    line-height:32px;
+    margin-bottom:50px;
 }
 
 .button{
     display:block;
+    width:100%;
+    max-width:350px;
+    margin:16px auto;
+    padding:18px;
+    background:#3E7B6A;
+    color:#ffffff;
     text-decoration:none;
-    background:#2e7d32;
-    color:white;
-    padding:16px;
-    margin:15px 0;
-    border-radius:8px;
+    border-radius:12px;
     font-size:18px;
-    font-weight:bold;
-    transition:.3s;
+    font-weight:600;
+    transition:0.3s;
 }
 
 .button:hover{
-    background:#1b5e20;
+    background:#2f6255;
 }
 
 .footer{
-    margin-top:35px;
-    color:#777;
-    font-size:14px;
+    margin-top:60px;
+    color:#6B7280;
+    font-size:15px;
+    line-height:28px;
+}
+
+@media(max-width:768px){
+
+h1{
+    font-size:38px;
+}
+
+.description{
+    font-size:16px;
+    line-height:28px;
+}
+
+.button{
+    font-size:17px;
+}
+
 }
 
 </style>
@@ -80,34 +103,43 @@ p{
 
 <div class="container">
 
-<div class="logo">🛒</div>
+<div class="small-title">
+Legal
+</div>
 
-<h1>SV MART</h1>
+<h1>
+Wellbeing Gauge
+</h1>
 
-<p>
-Welcome to <strong>SV MART</strong>.
+<p class="description">
 
-Your trusted online grocery shopping application for fresh fruits,
-vegetables, groceries, dairy products, household essentials and more.
+Welcome to <strong>Wellbeing Gauge</strong>.
 
-Choose one of the options below.
+<br><br>
+
+Wellbeing Gauge is a self-care and wellbeing tracking application designed to help users monitor their emotional wellbeing, track personal progress, and receive customized insights based on their wellbeing activities.
+
 </p>
-
-<a href="profile.html" class="button">
-👤 View Profile
-</a>
 
 <a href="privacy-policy.html" class="button">
 🔒 Privacy Policy
 </a>
 
+<a href="terms.html" class="button">
+📄 Terms of Service
+</a>
+
 <div class="footer">
 
-SV MART App v1.0.0
+For any questions, please contact:
 
 <br><br>
 
-© 2026 SV MART. All Rights Reserved.
+<strong>support@shinreyhealth.in</strong>
+
+<br><br>
+
+© 2026 Wellbeing Gauge. All Rights Reserved.
 
 </div>
 
